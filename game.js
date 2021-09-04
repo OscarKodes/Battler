@@ -62,3 +62,14 @@ atkBtn.on("click", function() {
 // CALLING FUNCTIONS -------------
 
 updateHP();
+
+
+/// NEXT STEPS----------------
+// Hide button after attacking
+// use set timeout for a few seconds
+// let opponent attack
+// calculate dmg
+// update display
+// check if alive
+// use set timeout for less seconds
+// show attack btn
