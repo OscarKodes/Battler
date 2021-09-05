@@ -49,27 +49,26 @@ function checkAlive() {
     }
 }
 
+function oppoTurn() {
+    dealDamage("player", 8);
+    updateDisplayHP();
+
+    setTimeout(() => atkBtn.show(), 1000);
+};
+
 
 // LISTENERS ---------------------
 
 atkBtn.on("click", function() {
 
     dealDamage("oppo", 10);
+    atkBtn.hide();
     updateDisplayHP();
+
+    setTimeout(oppoTurn, 1000);
 });
 
 
 // CALLING FUNCTIONS -------------
 
-updateHP();
-
-
-/// NEXT STEPS----------------
-// Hide button after attacking
-// use set timeout for a few seconds
-// let opponent attack
-// calculate dmg
-// update display
-// check if alive
-// use set timeout for less seconds
-// show attack btn
+updateDisplayHP();
