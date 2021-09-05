@@ -72,3 +72,67 @@ atkBtn.on("click", function() {
 // CALLING FUNCTIONS -------------
 
 updateDisplayHP();
+
+
+
+// Game start
+// Choose your character (multiple?)
+//// Allow random button
+// Choose your opponent (multiple?)
+//// Allow random button
+
+// Copy and paste character into player objects array
+// Copy and paste opponents into opponent objects array
+
+// Roll for initiatives
+// Character with highest initiatives go first
+// Characters take turns
+
+//// Typical Turn------
+
+// Action menu pops up
+// Choose action
+// Action menu goes away
+// Player - action done
+// Update HP
+// Check for knock out
+// Check for battle victory
+
+// Opponent next on initiative list goes - Random Action
+// Update HP
+// Check for knock out
+// Check for gameover (playe party ko'd)
+// Next initiative goes
+
+
+//----------------------
+// Will need
+//
+// Constructor Functions for all characters
+// Name
+// Type
+// Skills
+// HP
+// MP
+// Attack
+// Defense
+// Speed
+// Magic
+// Magic Def
+// Elements
+// Items
+// State: (Sleep, KO'd, )
+
+
+// Basic attack damage formula 
+// (Atk DMG = random(Actor.atk - 15% to Actor.atk + 15%) - random(target.def - 15% to target.def + 15%))
+
+// Skills damage formula 
+// (Fireball DMG = (random 1-6) + random(magic range) - randomg(target.magic def range))
+
+// Defend ---> add state defending to player object
+// Item (potions)
+
+
+// 
+
